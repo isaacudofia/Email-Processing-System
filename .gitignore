@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+service-a/node_modules/
+service-b/node_modules/
+
+# Build output
+dist/
+service-a/dist/
+service-b/dist/
+
+# Environment files
+.env
+.env.*
+service-a/.env
+service-b/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Dependency lock files
+package-lock.json
