@@ -1,6 +1,6 @@
 import express from "express";
-import connectDB from "./config/database.ts";
-import emailWorker from "./workers/emailWorker.ts";
+import connectDB from "./config/database";
+import emailWorker from "./workers/emailWorker";
 import { Queue } from "bullmq";
 
 const app = express();

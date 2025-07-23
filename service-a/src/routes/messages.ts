@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
 import { body, validationResult } from "express-validator";
 import { Queue } from "bullmq";
-import Message from "../model/Message.ts";
+import Message from "../model/Message";
 
 const router = express.Router();
 

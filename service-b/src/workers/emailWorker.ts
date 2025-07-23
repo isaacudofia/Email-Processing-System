@@ -1,5 +1,5 @@
 import { Worker, Job } from "bullmq";
-import Message from "../model/Message.ts";
+import Message from "../model/Message";
 
 interface EmailJobData {
   messageId: string;
